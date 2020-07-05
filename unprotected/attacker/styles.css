@@ -1,0 +1,12 @@
+#badbutton {
+    position: absolute;
+    left: 20px;
+    top: 68px;
+    width: 55px;
+}
+
+iframe {
+    position: absolute;
+    z-index: 100;
+    opacity: 70%;
+}

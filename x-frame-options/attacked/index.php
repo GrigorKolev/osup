@@ -1,0 +1,18 @@
+<?php
+    header("X-FRAME-OPTIONS: DENY")
+?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <p>Натиснете тук, за да прехвърлите 100 лв</p>
+        <a href="redirected.html">натисни</a>
+    </body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+
+        <style>
+            body {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Натиснете тук, за да прехвърлите 100 лв</p>
+        <a href="redirected.html">натисни</a>
+    </body>
+
+    <script type="text/javascript">
+
+        body = document.body;
+
+        if (self == top) {
+            body.style.display = "block";
+        }
+    </script>
+</html>
